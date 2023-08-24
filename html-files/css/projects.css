@@ -1,0 +1,121 @@
+.top-background{
+  height: 100%;
+  background-color: #F2FEDC;
+  margin-top: -20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.my-account-buttons-wrapper{
+  color: #1B3D2F;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+#project-folder{
+  color: #FD8D14;
+}
+.my-account-button2 h4{
+  color: #FD8D14;
+}
+.footer-background{
+  padding-top: 10px;
+  background-color: #F2FEDC;
+  padding-bottom: 10px;
+}
+.dropdown_menu.open{
+  height: 270px;
+}
+
+@media only screen and (max-width: 768px){
+  .projects-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    justify-content: center;
+    text-align: center;
+    margin-block: 3%;
+    width: 90%;
+    max-width: 1300px;
+  }
+  .first-row, .second-row{
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    max-width: 1300px;
+    width: 100%;
+    justify-content: center;
+    margin-block: 1.5%;
+  }
+  .project-file{
+    width: 80%;
+    border-radius: 1em;
+    transition: .3s;
+  }
+  .project-items{
+    margin-block: 2%;
+    cursor: pointer;
+  }
+  .project-file:hover{
+    opacity: 0.8;
+    transform: translateY(-4px);
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .top-background{
+    margin-inline: auto;
+    height: 100%;
+    background-color: #F2FEDC;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .my-account-buttons-wrapper{
+    color: #1B3D2F;
+    padding-top: 40px;
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    margin-left: 100px;
+    align-items: flex-end;
+  }
+  .my-account-button1{
+    text-align: center;
+  }
+  #project-folder{
+    color: #FD8D14;
+    font-size: 3.5em;
+  }
+  .my-account-button2 h4{
+    color: #FD8D14;
+  }
+  .projects-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    margin-block: 3%;
+    width: 90%;
+    max-width: 1000px;
+  }
+  .first-row, .second-row{
+    display: flex;
+    margin-inline: auto;
+    max-width: 1300px;
+    width: 100%;
+    justify-content: space-around;
+    margin-block: 1.5%;
+  }
+  .project-file{
+    width: 90%;
+    max-width: 300px;
+    border-radius: 1em;
+    transition: .3s;
+    cursor: pointer;
+  }
+  .project-file:hover{
+    opacity: 0.8;
+    transform: translateY(-4px);
+  }
+}

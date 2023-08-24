@@ -1,0 +1,41 @@
+/*COLOR PALETTE*//*
+#FECF43; = YELLOW
+#F2FEDC; = GREYISH LIGHT GREEN
+#1B3D2F; = MIDNIGHT GREEN
+#FD8D14; = ORANGE
+*/
+
+/*FONT FAMILY*//*
+Black   = font-family: 'Switzer';
+          font-weight: 900;
+Bold    = font-family: 'Switzer';
+          font-weight: 600;
+Regular = font-family: 'Switzer';
+          font-weight: 450;
+*/
+
+@import url(header.css);
+@import url(home.css);
+@import url(latest.css);
+@import url(about.css);
+@import url(footer.css);
+@import url(partners.css);
+@import url(mission.css);
+@import url(output.css);
+@import url(navbar.css);
+@import url(sign-in.css);
+@import url(sign-up.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Switzer';
+  box-sizing: border-box;
+}
+
+body{
+  background-image:linear-gradient(to top left, #1b3d2f,#f2fedc, #fecf43c8,#f2fedc) ;
+  background-size: 140%;
+  min-height: 100vh;
+}
+

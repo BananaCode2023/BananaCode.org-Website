@@ -1,0 +1,126 @@
+.logo a{
+  font-size: 1.3em;
+  font-weight: 900;
+}
+.sign-in{
+  position: relative;
+  margin-block: 50px;
+}
+.sign-in-wrapper{
+  color: #1B3D2F;
+  background-color: #F2FEDC;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  border-radius: .5em;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  width: 90%;
+  max-width: 400px;
+}
+
+.sign-in-description{
+  margin-inline: auto;
+  margin-bottom: 7%;
+}
+.sign-in-container1{
+  margin: -2% 5% 5% 5%;
+}
+.sign-in-container1 p{
+  font-weight: 450;
+}
+.email{
+  margin: 4% 0;
+}
+.password{
+  margin: 4% 0;
+}
+#sign-in-submit, #sign-in-password, #sign-in-email{
+  width: 100%;
+  height: 35px;
+  border-radius: .5em;
+  border: 2px solid #1B3D2F;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.26);
+}
+#sign-in-submit{
+  background-color: #1B3D2F;
+  color: #F2FEDC;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+}
+#sign-in-submit:hover{
+  background-color: #FD8D14;
+  border: 2px solid #FD8D14;
+}
+#sign-in-logo{
+  width: 40px;
+}
+.sign-in-logo{
+  margin: 7% auto 0.5% auto;
+}
+
+.sign-in-container2{
+  color: #1B3D2F;
+  background-color: #F2FEDC;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 90%;
+  margin: 1% auto;
+  padding: 1%;
+  text-align: left;
+  border-radius: .5em;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  width: 90%;
+  max-width: 400px;
+  font-size: .8em;
+}
+.sign-in-container2 p{
+  padding-inline: 4.5%;
+  font-size: 1em;
+}
+@media only screen and (min-width: 768px){
+  .logo a{
+    font-size: 1.5em;
+    font-weight: 900;
+  }
+  .sign-in-container2{
+  color: #1B3D2F;
+  background-color: #F2FEDC;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 90%;
+  margin: .7% auto;
+  padding: 1%;
+  text-align: left;
+  border-radius: .5em;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  width: 90%;
+  max-width: 400px;
+}
+
+.container2{
+  margin-block: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#sign-in-submit:hover{
+  background-color: #FD8D14;
+  border: 2px solid #FD8D14;
+}
+}
+@media only screen and (max-width: 330px){
+  .sign-in-container2 p{
+    padding-inline: 4.5%;
+    font-size: 1em;
+  }
+  .sign-in-container2 a{
+    font-size: 1em;
+  }
+}

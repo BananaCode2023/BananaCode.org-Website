@@ -1,0 +1,162 @@
+.background{
+  background-color: #F2FEDC;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding-bottom: 20px;
+}
+.sign-up{
+  color: #1B3D2F;
+}
+.sign-up-container{
+  background-color: #1B3D2F;
+  background-size: 200%;
+  color: #F2FEDC;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 15px;
+  text-align: left;
+  border-radius: .5em;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  width: 90%;
+  max-width: 500px;
+}
+.sign-up-logo{
+  display: flex;
+  justify-content: center;
+  margin: 5% auto 0.5% auto;
+}
+.sign-up-description{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 0 4% 0;
+}
+.sign-up-description h4{
+  font-size: 120%;
+}
+#logo{
+  width: 20%;
+}
+.fill-up{
+  background-color: #F2FEDC;
+  color: #1B3D2F;
+  font-size: 1em;
+  font-weight: 450;
+  cursor: pointer;
+  height: 2.3em;
+  border-radius: .3em;
+  border: none;
+}
+.fill-up-container{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: auto;
+  margin-block: 2%;
+}
+.create-account{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: auto;
+  margin-block: 2%;
+}
+#create-account{
+  background-color: #FECF43;
+  color: #1B3D2F;
+  font-size: 1.2em;
+  font-weight: 600;
+  cursor: pointer;
+  height: 2.3em;
+  border-radius: .3em;
+  border: none;
+  margin: -1em 0 5% 0 ;
+}
+#create-account:active{
+  transform: translateY(3px);
+}
+
+@media only screen and (min-width: 768px){
+  .sign-up{
+    color: #1B3D2F;
+  }
+  .sign-up-container{
+    background-color: #1B3D2F;
+    background-size: 200%;
+    color: #F2FEDC;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    border-radius: .5em;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    width: 90%;
+    max-width: 500px;
+  }
+  .sign-up-logo{
+    display: flex;
+    justify-content: center;
+    margin: 3% auto 0 auto;
+  }
+  .sign-up-description{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 4% 0;
+  }
+  .sign-up-description h4{
+    font-size: 170%;
+  }
+  #logo{
+    width: 8em;
+  }
+  .fill-up{
+    background-color: #F2FEDC;
+    color: #1B3D2F;
+    font-size: 1em;
+    font-weight: 450;
+    cursor: pointer;
+    height: 2.3em;
+    border-radius: .3em;
+    border: none;
+  }
+  .fill-up-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: auto;
+    margin-block: 2%;
+  }
+  .create-account{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: auto;
+    margin-block: 2%;
+  }
+  #create-account{
+    background-color: #FECF43;
+    color: #1B3D2F;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    height: 2.3em;
+    border-radius: .3em;
+    border: none;
+    margin: -1em 0 5% 0 ;
+  }
+  #create-account:active{
+    transform: translateY(3px);
+  }
+  
+}

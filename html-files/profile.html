@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compativle" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://api.fontshare.com/v2/css?f[]=switzer@900,700,400,500&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/my-account.css">
+    
+    <title>PJcoder26 | Profile</title>
+    <link rel = "icon" href = "assets/bananacodes-favicon.png" 
+          type = "image/x-icon">
+  
+  </head>
+<body>
+  <div class="top-background">
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html"><img src="assets/bananacodes-logo.png" alt="Bananacode" id="bananacode-logo"></a>
+      </div>
+      <div class="navbar-buttons"> 
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="output-gallery.html">Output Gallery</a></li>
+        <li><a href="sign-in.html">Sign-in</a></li>
+        <li><a href="sign-up.html">Sign-up</a></li>
+      </ul>
+      </div>
+      <div class="toggle_btn">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </div>
+    </div>
+    
+  <div class="dropdown_menu">
+    <ul class="links">
+      <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="output-gallery.html">Output Gallery</a></li>
+        <li><a href="sign-in.html">Sign-in</a></li>
+        <li><a href="sign-up.html">Sign-up</a></li>
+        <li><a href="my-account.html">Account</a></li>
+    </ul>
+  </div>
+
+  </header>
+
+
+  <section class="my-account-buttons">
+    <div class="my-account-buttons-wrapper">
+      <div class="my-account-button1">
+        <a href="my-account.html"> <i class="fa-solid fa-circle-info" id="profile-folder"></a></i>
+        <h4>Profile</h4>
+      </div>
+      <div class="my-account-button2">
+        <a href="projects.html"> <i class="fa-solid fa-folder" id="project-folder"></a></i>
+        <h4>Projects</h4>
+      </div>
+      <div class="my-account-button3">
+        <a href="resume.html"> <i class="fa-solid fa-file-circle-check" id="resume-folder"></a></i>
+        <h4>Resume</h4>
+      </div>
+    </div>
+  </section>
+</div> 
+
+    <section class="profile-section">
+      <div class="profile-section-wrapper">
+
+        <div class="profile-section-first-column">
+          <img src="assets/sample pic.jpg" alt="profile-pic" id="profile-pic">
+          <h1>PJcoder26</h1>
+        </div>
+
+        <div class="profile-section-second-column">
+          <h1>Peter John Reyes</h1><br>
+          <h4>I am a Frontend Web Developer, an Entrepreneur, and I create websites that leads to success and solve problems. I can design: Brand Logos, Graphics, Infographics, Vectors, Publication Materials, etc. I also have managed a small company, collaborate with people, lead, direct and execute social entrepreneurship. I had made several projects like market affiliating website, restaurant website, calculator website, rock, paper, scissors website, etc.
+          </h4><br>
+          <h4>
+            <strong>Contact Details:</strong><br>
+            <strong>Mobile No:</strong> +63 123 456 7890<br>
+            <strong>Gcash:</strong> +63 123 456 7890<br>
+            <strong>Email Address:</strong> example@gmail.com<br><br>
+            <strong>You can also contact me through:</strong><br>
+            <div class="social-media-contact">
+            <a href="https://www.facebook.com/" class="fa fa-facebook" id="facebook"></a>
+            <a href="https://twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://mail.google.com/" class="fa fa-google"></a>
+            <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+            <a href="https://dribbble.com/shots" class="fa fa-dribbble"></a>
+            </div>
+          </h4>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="footer-background">
+      <footer>
+        <div class="footer">
+          <div class="footer-wrapper">
+            <div class="footer-logo">
+              <div class="footer-socmeds">
+                <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
+                <a href="https://www.linkedin.com/" class="fa fa-linkedin" target="_blank"></a>
+          </div>
+            <p>© 2023 BananaCode. All Rights Reserved</p></a>
+    
+            </div>
+          </div>
+        </div>
+      </footer>
+</div>
+
+  <script>
+   const toggleBtn = document.querySelector('.toggle_btn')
+  const toggleBtnIcon = document.querySelector('.toggle_btn i')
+  const dropDownMenu = document.querySelector('.dropdown_menu')
+
+  toggleBtn.onclick = function(){
+    dropDownMenu.classList.toggle('open')
+  }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compativle" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=switzer@900,700,400,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>BananaCode.org | Home</title>
+  <link rel = "icon" href = "assets/bananacodes-favicon.png" 
+        type = "image/x-icon">
+
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html"><img src="assets/bananacodes-logo.png" alt="Bananacode" id="bananacode-logo"></a>
+      </div>
+      <div class="navbar-buttons">
+      <ul class="links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="output-gallery.html">Output Gallery</a></li>
+        <li><a href="sign-in.html">Sign-in</a></li>
+        <li><a href="sign-up.html">Sign-up</a></li>
+        <li><a href="my-account.html"><i class="fa-solid fa-circle-user"></i></a></li>
+      </ul>
+      </div>
+      <div class="toggle_btn">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </div>
+    </div>
+    
+  
+  <div class="dropdown_menu">
+    <ul class="links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="output-gallery.html">Output Gallery</a></li>
+      <li><a href="sign-in.html">Sign-in</a></li>
+      <li><a href="sign-up.html">Sign-up</a></li>
+      <li><a href="my-account.html">Account</a></li>
+    </ul>
+  </div>
+
+  </header>
+
+  <section>
+    <div class="home">
+      <div class="home-wrapper">
+        <div class="home-heading">
+          <h1>Helping local programmers in programming our
+            country into a better place</h1>
+        </div>
+        <div class="home-description">
+          <p>A gallery website for local programmers to let them shine and be discovered</p>
+        </div>
+        <div class="home-message">
+          <input type="email" name="email" placeholder="Input Email" id="email"><br>
+          <input type="submit" value="Get Updates" id="get-updates" onclick="getUpdate()">
+        </div>
+        <div class="email-get-update">
+          <div class="item-1"> 
+            <input type="email" name="email" placeholder="Input Email" id="email1">
+          </div>
+          <div class="item-2"> 
+          <input type="submit" value="Get Updates" id="get-updates1" onclick="getUpdate()">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="latest">
+      <div class="latest-wrapper">
+        <div class="latest-heading-container">
+        <div class="latest-heading">
+          <h1>Latest Uploads</h1>
+        </div>
+        <div class="latest-description">
+          <p>See our local programmer's <span id="latest-outputs"><a href="output-gallery.html"><u>latest outputs</u></a></span></p>
+        </div>
+      </div>
+      
+      <div class="latest-container">
+        <div class="latest-outputs-container">
+
+          <div class="latest-outputs">
+            <a href="output-gallery.html"> <img src="assets/website1.png" alt="sample-website" class="sample-website"></a>
+            <a href="output-gallery.html"> <h2>MARiA</h2></a>
+            <p>By Mr. <a href="">Samuel Solomon</a></p>
+          </div>
+          
+          <div class="latest-outputs">
+            <a href="output-gallery.html"> <img src="assets/website3.png" alt="sample-website" class="sample-website"></a>
+            <a href="output-gallery.html"> <h2>Faithworks Manufacturing</h2></a>
+            <p>By Mr. <a href="">Myke Bartolome</a></p>
+          </div>
+          <div class="latest-outputs">
+            <a href="output-gallery.html"> <img src="assets/website4.png" alt="sample-website" class="sample-website"></a>
+            <a href="output-gallery.html"> <h2>Fahb's Coffee Corner</h2></a>
+            <p>By Mr. <a href="">Fahad Hasan</a></p>
+          </div>
+
+          <div class="latest-outputs">
+            <a href="output-gallery.html"> <img src="assets/website11.png" alt="sample-website" class="sample-website"></a>
+            <a href="output-gallery.html"> <h2>TropicalHavenQuests.PH</h2></a>
+            <p>By Ms. <a href="">Mary Joy Avila</a></p>
+          </div>
+
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-wrapper">
+        <div class="footer-logo">
+          <div class="footer-socmeds">
+            <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
+            <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.linkedin.com/" class="fa fa-linkedin" target="_blank"></a>
+      </div>
+        <p>© 2023 BananaCode. All Rights Reserved</p></a>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  function getUpdate() {
+    alert("Thank you! We will update you soon!");
+  }
+
+  const toggleBtn = document.querySelector('.toggle_btn')
+  const toggleBtnIcon = document.querySelector('.toggle_btn i')
+  const dropDownMenu = document.querySelector('.dropdown_menu')
+
+  toggleBtn.onclick = function(){
+    dropDownMenu.classList.toggle('open')
+  }
+  </script>
+
+</body>
+</html>

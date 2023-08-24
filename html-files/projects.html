@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compativle" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://api.fontshare.com/v2/css?f[]=switzer@900,700,400,500&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projects.css">
+    
+    <title>PJcoder26 | Projects</title>
+    <link rel = "icon" href = "assets/bananacodes-favicon.png" 
+          type = "image/x-icon">
+  
+  </head>
+<body>
+  <div class="top-background">
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="assets/bananacodes-logo.png" alt="Bananacode" id="bananacode-logo"></a>
+        </div>
+        <div class="navbar-buttons"> 
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="output-gallery.html">Output Gallery</a></li>
+          <li><a href="sign-in.html">Sign-in</a></li>
+          <li><a href="sign-up.html">Sign-up</a></li>
+        </ul>
+        </div>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+      </div>
+      
+    <div class="dropdown_menu">
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="output-gallery.html">Output Gallery</a></li>
+          <li><a href="sign-in.html">Sign-in</a></li>
+          <li><a href="sign-up.html">Sign-up</a></li>
+          <li><a href="my-account.html">Account</a></li>
+      </ul>
+    </div>
+  
+    </header>
+
+
+    <section class="my-account-buttons">
+      <div class="my-account-buttons-wrapper">
+        <div class="my-account-button1">
+          <a href="my-account.html"> <i class="fa-solid fa-circle-info" id="profile-folder"></a></i>
+          <h4>Profile</h4>
+        </div>
+        <div class="my-account-button2">
+          <a href="projects.html"> <i class="fa-solid fa-folder" id="project-folder"></a></i>
+          <h4>Projects</h4>
+        </div>
+        <div class="my-account-button3">
+          <a href="resume.html"> <i class="fa-solid fa-file-circle-check" id="resume-folder"></a></i>
+          <h4>Resume</h4>
+        </div>
+      </div>
+    </section>
+</div> 
+    <section class="project-section">
+      <div class="projects">
+        <div class="projects-wrapper">
+          <div class="first-row">
+          <div class="project-items">
+            <img src="assets/add-filepng.png" class="project-file">
+            <h3>Add Project</h3>
+          </div>
+          <div class="project-items">
+            <img src="assets/website5.png" class="project-file">
+            <h3>BananaCode.org</h3>
+          </div>
+          <div class="project-items">
+            <img src="assets/website6.png" class="project-file">
+            <h3>Fitcheck</h3>
+          </div>
+          </div>
+
+          <div class="second-row">
+            <div class="project-items">
+              <img src="assets/website7.png" class="project-file">
+              <h3>Ten-Tens Website</h3>
+            </div>
+            <div class="project-items">
+              <img src="assets/website8.png" class="project-file">
+              <h3>Calculator Website</h3>
+            </div>
+            <div class="project-items">
+              <img src="assets/website9.png" class="project-file">
+              <h3>My Portfolio Website</h3>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer-background">
+      <footer>
+        <div class="footer">
+          <div class="footer-wrapper">
+            <div class="footer-logo">
+              <div class="footer-socmeds">
+                <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
+                <a href="https://www.linkedin.com/" class="fa fa-linkedin" target="_blank"></a>
+          </div>
+            <p>© 2023 BananaCode. All Rights Reserved</p></a>
+    
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  <script>
+   const toggleBtn = document.querySelector('.toggle_btn')
+  const toggleBtnIcon = document.querySelector('.toggle_btn i')
+  const dropDownMenu = document.querySelector('.dropdown_menu')
+
+  toggleBtn.onclick = function(){
+    dropDownMenu.classList.toggle('open')
+  }
+  </script>
+
+</body>
+</html>

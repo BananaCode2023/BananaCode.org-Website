@@ -1,0 +1,152 @@
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #1B3D2F;
+  font-size: 1rem;
+  font-weight: 600;
+}
+a:hover{
+  color: #FD8D14;
+}
+
+header{
+  position: relative;
+  padding: 0 2rem;
+}
+.navbar{
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img{
+  width: 50px;
+  margin-top: 20px;
+}
+
+.navbar .links{
+  display: flex;
+  gap: 2rem;
+}
+.navbar .toggle_btn{
+  color: #1B3D2F;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.navbar .links{
+  display: none;
+}
+.dropdown_menu{
+  position: absolute;
+  top: 60px;
+  height: 0;
+  width: 90%;
+  background-color: #F2FEDC;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-radius: 1rem;
+}
+
+.dropdown_menu li{
+  padding: .7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown_menu .action_btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.dropdown_menu.open{
+  height: 230px;
+  z-index: 1;
+}
+#account{
+  width: 1.5em;
+}
+
+  
+@media only screen and (min-width: 768px){
+  header{
+    margin-top: 20px;
+    }
+  li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: #1B3D2F;
+    font-size: 1.3rem;
+  }
+  a:hover{
+    color: #FD8D14;
+  }
+  
+  header{
+    position: relative;
+    padding: 0 2rem;
+  }
+  .navbar{
+    width: 90%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img{
+    width: 50px;
+    margin-top: 20px;
+  }
+  
+  .navbar .links{
+    display: flex;
+    gap: 2rem;
+  }
+  .navbar .toggle_btn{
+    color: #1B3D2F;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .toggle_btn:hover{
+    color: #FD8D14;
+  }
+  .dropdown_menu{
+    position: absolute;
+    top: 60px;
+    height: 0;
+    width: 90%;
+    background-color: #F2FEDC;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 1rem;
+  }
+  
+  .dropdown_menu li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dropdown_menu .action_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .dropdown_menu.open{
+    height: 250px;
+  }
+  .fa-solid{
+    font-size: 1.5em;
+  }
+}

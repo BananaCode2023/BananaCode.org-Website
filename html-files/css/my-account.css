@@ -1,0 +1,183 @@
+.top-background{
+  height: 100%;
+  background-color: #F2FEDC;
+  margin-top: -20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.my-account-buttons-wrapper{
+  color: #1B3D2F;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.fa-circle-info{
+  color: #FD8D14;
+}
+.my-account-button1 h4{
+  color: #FD8D14;
+}
+.footer-background{
+  padding-top: 10px;
+  background-color: #F2FEDC;
+  padding-bottom: 10px;
+}
+.dropdown_menu.open{
+  height: 270px;
+}
+.social-media-contact a{
+  background: #1B3D2F;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 50%;
+}
+#facebook{
+  background: #1B3D2F;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 50%;
+}
+.social-media-contact a:hover, #facebook:hover{
+  background-color: #FD8D14;
+  color: #F2FEDC;
+}
+
+@media only screen and (max-width: 768px){
+.profile-section-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5%;
+  max-width: 1300px;
+  margin-inline: auto;
+  width: 80%;
+  margin-block: 40px;
+}
+#profile-pic{
+  width: 100%;
+  border-radius: 50%;
+}
+.profile-section-first-column{
+  display: flex;
+  flex-direction: column;
+}
+.profile-section-first-column h1{
+  font-size: 2em;
+}
+.profile-section-first-column button{
+  background-color: #1B3D2F;
+  border: none;
+  border-radius: 1em;
+  padding: .7em;
+  color: #F2FEDC;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.profile-section-first-column button:hover{
+  background-color: #FD8D14;
+}
+.profile-section-first-column button:active{
+  transform: translateY(4px);
+}
+
+.profile-section-second-column h1{
+  font-size: 2em;
+}
+.profile-section-second-column h4{
+  font-size: 1.2em;
+  font-weight: 450;
+}
+}
+
+@media only screen and (min-width: 768px){
+  .top-background{
+    margin-inline: auto;
+    height: 100%;
+    background-color: #F2FEDC;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .my-account-buttons-wrapper{
+    color: #1B3D2F;
+    padding-top: 40px;
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    margin-left: 100px;
+    align-items: flex-end;
+  }
+  .my-account-button1{
+    text-align: center;
+  }
+  #profile-folder{
+    color: #FD8D14;
+    font-size: 3.5em;
+  }
+  .my-account-button1 h4{
+    color: #FD8D14;
+  }
+  .profile-section-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    max-width: 1300px;
+    margin-inline: auto;
+    margin-block: 40px;
+    width: 90%;
+  }
+  #profile-pic{
+    width: 100%;
+    border-radius: 50%;
+  }
+  .profile-section-first-column{
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-section-first-column h1{
+    font-size: 2em;
+    margin-block: 10px;
+  }
+  .profile-section-first-column button{
+    background-color: #1B3D2F;
+    border: none;
+    border-radius: 1em;
+    padding: .7em;
+    color: #F2FEDC;
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+  .profile-section-first-column button:hover{
+    background-color: #FD8D14;
+  }
+  .profile-section-first-column button:active{
+    transform: translateY(4px);
+  }
+  
+  .profile-section-second-column h1{
+    font-size: 2em;
+  }
+  .profile-section-second-column h4{
+    font-size: 1.2em;
+    font-weight: 450;
+  }
+  .social-media-contact a{
+    background: #1B3D2F;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 50%;
+  }
+  #facebook{
+    background: #1B3D2F;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50%;
+  }
+  .social-media-contact a:hover, #facebook:hover{
+    background-color: #FD8D14;
+    color: #F2FEDC;
+  }
+}
